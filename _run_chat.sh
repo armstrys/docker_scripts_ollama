@@ -1,1 +1,1 @@
-docker exec -it ollama ollama run phi3.5
+docker exec -it ollama ollama run llama3.2:1b

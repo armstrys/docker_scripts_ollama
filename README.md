@@ -10,9 +10,9 @@ Lastly you will need to configure your Continue plug in like so
 {
   "models": [
     {
-      "title": "Phi 3.5 mini instruct",
+      "title": "Llama 3.2 1B",
       "provider": "ollama",
-      "model": "phi3.5"
+      "model": "llama3.2:1b"
     }
   ],
   "tabAutocompleteModel": {
@@ -21,8 +21,7 @@ Lastly you will need to configure your Continue plug in like so
     "model": "qwen2.5-coder:1.5b"
   },
   "tabAutocompleteOptions": {
-    "multilineCompletions": "always",
-    "template" : "<fim_prefix>{{prefix}}<fim_suffix>{{suffix}}<fim_middle>"
+    "multilineCompletions": "always"
   },
 }
 ```
