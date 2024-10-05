@@ -1,0 +1,1 @@
+docker exec -it ollama ollama run phi3.5
